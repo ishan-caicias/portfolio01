@@ -1,0 +1,128 @@
+/*Intro section*/
+
+
+.header {
+    width: 100%;
+    height: 780px;
+    display: block;
+    position: relative;
+}
+
+.header .nav_header ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    font-size: 36px;
+    color: white;
+
+}
+
+.nav_header {
+    width: 100%;
+    height: 18%;
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    left: 30%;
+    align-self: center;
+    background-color: red;
+}
+
+.home_intro {
+    width: 1000px;
+    height: 45%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1%;
+    position: relative;
+    top: 20%;
+    left: 17%;
+    background-color: var(--clr-accent);
+    opacity: 20%;
+}
+
+.home_intro {
+    height: 45%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1%;
+    position: relative;
+    top: 20%;
+    left: 17%;
+    background-color: var(--clr-accent);
+    opacity: 20%;
+}
+
+.scrollDwBtn {
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+    float: right;
+    box-shadow: -2px 2px 0 rgb(255, 245, 245);
+    transform: rotate(315deg);
+    position: relative;
+    top: 80%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.about_section {
+
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: block;
+}
+
+.about_section img {
+    width: 15%;
+    height: 35%;
+    border-radius: 50%;
+}
+
+.portfolio {
+
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: block;
+}
+
+.contact {
+
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: block;
+}
+
+/*
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: font;
+}
+
+@media screen and(max-width: 768px) {
+    .nav-header {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;
+        background-color: var(--second-color);
+        transition: .5s;
+    }
+}
+
+.nav_item {
+    margin-bottom: var(--mb-4);
+}
+
+.nav_link {
+    position: relative;
+    color: #fff;
+} */
